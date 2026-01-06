@@ -1,0 +1,71 @@
+# Task 2 – AI FAQ Chatbot using NLP
+
+## Description
+This project is an AI-based FAQ chatbot developed using Python and Natural Language Processing (NLP).
+The chatbot answers a wide range of **Artificial Intelligence-related questions** by identifying the most relevant response using similarity matching techniques.
+
+Instead of hard-coded rules, the chatbot uses **TF-IDF vectorization and cosine similarity**, making it scalable and easy to extend with additional AI knowledge.
+
+---
+
+## Features
+- Answers common and advanced AI-related questions
+- Uses NLP techniques instead of if-else logic
+- Expandable knowledge base
+- Clean and interactive command-line interface
+- Beginner-friendly and explainable AI logic
+
+---
+
+## Technologies Used
+- Python
+- Scikit-learn
+- TF-IDF Vectorizer
+- Cosine Similarity
+- Natural Language Processing (NLP)
+
+---
+
+## How It Works
+1. Predefined AI-related questions are converted into numerical vectors using **TF-IDF**.
+2. User input is also converted into a vector.
+3. **Cosine similarity** finds the closest matching question.
+4. The chatbot returns the corresponding answer in real time.
+
+---
+
+## How to Run
+
+1. Install required library:
+pip install scikit-learn
+
+2. Run the chatbot:
+python chatbot.py
+
+3. Ask questions related to Artificial Intelligence.
+4. Type `exit` to quit the chatbot.
+
+---
+
+## Sample Interaction
+=== AI FAQ Chatbot ===
+Ask me anything about AI
+Type 'exit' to quit
+
+You: What is machine learning?
+
+Bot: Machine learning is a subset of AI that allows systems to learn from data automatically.
+
+---
+
+## Internship Task
+This project was developed as **Task 2 – Chatbot for FAQs**  
+for the **CodeAlpha Artificial Intelligence Internship**.
+
+---
+
+
+
+
+
+
