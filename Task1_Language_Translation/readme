@@ -1,1 +1,87 @@
+# Task 1 – Language Translation Tool using AI
+
+## Description
+This project is an AI-based language translation tool developed using Python.
+It allows users to translate text from one language to **any supported language** using a pre-trained Natural Language Processing (NLP) model.
+
+The application dynamically loads available languages, provides clean formatted output, and includes an optional **text-to-speech** feature for better user interaction.
+
+---
+
+## Features
+- Supports **100+ languages** (auto-loaded)
+- Menu-driven language selection
+- Clean and readable console output
+- Optional text-to-speech for translated text
+- Real-time AI-powered translation
+- Beginner-friendly implementation
+
+---
+
+## Technologies Used
+- Python
+- GoogleTrans (AI Translation Library)
+- gTTS (Text-to-Speech)
+- Natural Language Processing (NLP)
+
+---
+
+## How It Works
+1. User enters text to be translated.
+2. User selects the target language from a dynamically generated list.
+3. The AI translation model processes the text.
+4. The translated output is displayed clearly.
+5. Optional text-to-speech converts the output into audio.
+
+---
+
+## How to Run
+
+1. Install required libraries:
+pip install googletrans==4.0.0-rc1
+pip install gTTS
+
+
+2. Run the program:
+python translator.py
+
+---
+
+## Sample Output
+=== AI Language Translation Tool ===
+
+Afrikaans
+
+Albanian
+
+Arabic
+...
+
+Tamil
+
+Telugu
+...
+
+Choose target language number: 56
+Enter text to translate: esther
+
+Translated Text (Tamil):
+
+எஸ்தர்
+
+Do you want to hear the translation? (y/n): n
+
+---
+
+## Internship Task
+This project was developed as **Task 1 – Language Translation Tool**  
+for the **CodeAlpha Artificial Intelligence Internship**.
+
+---
+
+
+
+
+
+
 
