@@ -1,0 +1,65 @@
+# Task 3 – Music Generation using AI
+
+## Description
+This project demonstrates an **AI-based music generation system** developed using Python.
+The system generates new musical sequences by learning patterns from existing musical notes and produces the output in **MIDI format**, which can be played using any standard media player.
+
+The project focuses on **pattern-based AI**, making it simple, explainable, and suitable for beginners.
+
+---
+
+## Features
+- Generates new music automatically
+- Uses learned musical note patterns
+- Adds rhythm using different note durations
+- Outputs music in MIDI format
+- Easy to run and modify
+
+---
+
+## Technologies Used
+- Python
+- music21
+- NumPy
+- Artificial Intelligence (Pattern-based learning)
+
+---
+
+## How It Works
+1. A predefined set of musical notes is used as training data.
+2. The system learns patterns from these notes.
+3. New sequences of notes are generated using probabilistic selection.
+4. Generated notes are converted into a **MIDI file**.
+5. The MIDI file can be played using a media player.
+
+---
+
+## How to Run
+
+1. Install required libraries:
+pip install music21 numpy
+
+2. Run the program:
+python music_generator.py
+
+3. A file named `generated_music.mid` will be created.
+4. Open the MIDI file to listen to the generated music.
+
+---
+
+## Sample Output
+- A MIDI file containing AI-generated music
+- Each execution generates a slightly different music pattern
+
+---
+
+## Internship Task
+This project was developed as **Task 3 – Music Generation with AI**  
+for the **CodeAlpha Artificial Intelligence Internship**.
+
+---
+
+
+
+
+
