@@ -1,0 +1,65 @@
+# Task 4 – Object Detection and Tracking using AI
+
+## Description
+This project demonstrates a real-time **Object Detection and Tracking system** using Artificial Intelligence and Computer Vision.
+A pre-trained **YOLO (You Only Look Once)** deep learning model is used to detect and track objects from a live webcam feed.
+
+The system identifies objects such as people, mobile phones, bottles, chairs, etc., and displays bounding boxes with labels and tracking IDs in real time.
+
+---
+
+## Features
+- Real-time object detection using webcam
+- Object tracking across video frames
+- Bounding boxes with object labels
+- Uses a pre-trained deep learning model (YOLO)
+- Simple and efficient implementation
+
+---
+
+## Technologies Used
+- Python
+- YOLO (Ultralytics)
+- OpenCV
+- Deep Learning
+- Computer Vision
+
+---
+
+## How It Works
+1. The webcam captures live video frames.
+2. Each frame is processed by the YOLO deep learning model.
+3. Objects are detected and bounding boxes are drawn.
+4. Object tracking assigns IDs to detected objects.
+5. The annotated video is displayed in real time.
+
+---
+
+## How to Run
+
+1. Install required libraries:
+pip install ultralytics opencv-python
+
+2. Run the program:
+python object_detection.py
+
+3. Press **`q`** to exit the application.
+
+---
+
+## Sample Output
+- Objects are detected with bounding boxes
+- Labels such as *person*, *bottle*, *chair*, etc., are displayed
+- Objects are tracked as they move in the video
+
+---
+
+## Internship Task
+This project was developed as **Task 4 – Object Detection and Tracking**  
+for the **CodeAlpha Artificial Intelligence Internship**.
+
+---
+
+
+
+
