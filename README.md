@@ -45,29 +45,7 @@ The system detects and tracks objects from a live webcam feed and displays bound
 📂 Folder: `Task4_Object_Detection`  
 **Technologies:** Python, YOLO (Ultralytics), OpenCV, Deep Learning, Computer Vision
 
----
 
-## Repository Structure
-CodeAlpha_AI_Internship
-│
-├── Task1_Language_Translation
-│ ├── translator.py
-│ └── README.md
-│
-├── Task2_AI_FAQ_Chatbot
-│ ├── chatbot.py
-│ └── README.md
-│
-├── Task3_Music_Generation
-│ ├── music_generator.py
-│ ├── generated_music.mid
-│ └── README.md
-│
-├── Task4_Object_Detection
-│ ├── object_detection.py
-│ └── README.md
-│
-└── README.md
 
 ---
 
